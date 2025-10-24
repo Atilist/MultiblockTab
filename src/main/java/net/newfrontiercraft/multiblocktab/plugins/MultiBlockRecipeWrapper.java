@@ -165,7 +165,7 @@ public class MultiBlockRecipeWrapper implements RecipeWrapper {
         Tessellator tessellator = Tessellator.INSTANCE;
         tessellator.startQuads();
 
-        tessellator.translate(-(recipe.getStructureWidth() / 2f), -(recipe.getStructureHeight() / 2f), -(recipe.getStructureDepth() / 2f));
+        tessellator.setOffset(-(recipe.getStructureWidth() / 2f), -(recipe.getStructureHeight() / 2f), -(recipe.getStructureDepth() / 2f));
 
         blockView.setVisibleLayer(currentLayer);
 
@@ -182,7 +182,7 @@ public class MultiBlockRecipeWrapper implements RecipeWrapper {
         }
 
         tessellator.draw();
-        tessellator.translate(0.0F, 0.0F, 0.0F);
+        tessellator.setOffset(0.0, 0.0, 0.0);
 
         GL11.glPopMatrix();
 
