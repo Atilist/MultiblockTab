@@ -13,14 +13,14 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 public class MultiBlockRecipeCategory implements RecipeCategory {
-    private final AMIDrawable background = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 0, 0, 162, 130);
+    private final AMIDrawable background = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 0, 0, 162, 130);
 
-    private final AMIDrawable costTop = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 0, 25, 5);
-    private final AMIDrawable costExtensionTop = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 0, 23, 5);
-    private final AMIDrawable costMiddle = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 5, 25, 18);
-    private final AMIDrawable costExtensionMiddle = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 5, 23, 18);
-    private final AMIDrawable costBottom = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 23, 25, 5);
-    private final AMIDrawable costExtensionBottom = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 162, 28, 23, 5);
+    private final AMIDrawable costTop = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 0, 25, 5);
+    private final AMIDrawable costExtensionTop = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 0, 23, 5);
+    private final AMIDrawable costMiddle = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 5, 25, 18);
+    private final AMIDrawable costExtensionMiddle = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 5, 23, 18);
+    private final AMIDrawable costBottom = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 23, 25, 5);
+    private final AMIDrawable costExtensionBottom = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 162, 28, 23, 5);
 
     GuiItemStackGroup itemStackGroup;
     List<ItemStack> cost;

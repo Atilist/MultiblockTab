@@ -28,10 +28,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MultiBlockRecipeWrapper implements RecipeWrapper {
-    private final AMIDrawable leftButton = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 187, 0, 7, 11);
-    private final AMIDrawable leftButtonHover = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 187, 11, 7, 11);
-    private final AMIDrawable rightButton = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 194, 0, 7, 11);
-    private final AMIDrawable rightButtonHover = DrawableHelper.createDrawable("/assets/nfc/stationapi/gui/multiblock.png", 194, 11, 7, 11);
+    private final AMIDrawable leftButton = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 187, 0, 7, 11);
+    private final AMIDrawable leftButtonHover = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 187, 11, 7, 11);
+    private final AMIDrawable rightButton = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 194, 0, 7, 11);
+    private final AMIDrawable rightButtonHover = DrawableHelper.createDrawable("/assets/multiblocktab/stationapi/textures/gui/multiblock.png", 194, 11, 7, 11);
 
     private final MultiBlockRecipe recipe;
 
