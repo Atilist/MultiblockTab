@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "multiblocktab",
+  "id": "multiblocktabtest",
   "version": "${version}",
 
-  "name": "Multiblock Tab",
-  "description": "Allows mod creators to display their multiblocks including additional descriptions using and AMI tab.",
+  "name": "Multiblock Tab Test",
+  "description": "Test mod which provides a multiblock tab to see if everything works correctly.",
   "authors": [
     "Ralf2oo2, Atilist"
   ],
@@ -19,19 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "net.newfrontiercraft.multiblocktab.MultiblockTab"
+      "net.newfrontiercraft.multiblocktab.events.init.RecipeListener"
     ],
     "stationapi:event_bus_client": [
     ],
     "stationapi:event_bus_server": [
-    ],
-    "alwaysmoreitems:plugin": [
-      "net.newfrontiercraft.multiblocktab.MultiblockPluginProvider"
     ]
   },
-  "mixins": [
-    "multiblocktab.mixins.json"
-  ],
 
   "depends": {
     "minecraft": "1.0.0-beta.7.3"
