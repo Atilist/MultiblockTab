@@ -1,33 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "%s",
+  "id": "multiblocktab",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Multiblock Tab",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Ralf2oo2, Atilist"
   ],
   "contact": {
     "homepage": "https://glass-launcher.net/",
     "sources": "https://github.com/calmilamsy/stationapi-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/%s/icon.png",
+  "license": "MIT",
+  "icon": "assets/multiblocktab/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "%s.events.init.InitListener"
+      "net.newfrontiercraft.multiblocktab.MultiblockTab"
     ],
     "stationapi:event_bus_client": [
     ],
     "stationapi:event_bus_server": [
+    ],
+    "alwaysmoreitems:plugin": [
+      "net.newfrontiercraft.multiblocktab.MultiblockPluginProvider"
     ]
   },
   "mixins": [
-    "%s.mixins.json"
+    "multiblocktab.mixins.json"
   ],
 
   "depends": {
