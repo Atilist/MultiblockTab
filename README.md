@@ -25,4 +25,4 @@ Open your `server.properties` and set `online-mode` to `false`.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This template is available under the MIT license. Feel free to learn from it and incorporate it in your own projects as long as you credit the authors.
