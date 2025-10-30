@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Multiblock Tab",
-  "description": "Allows mod creators to display their multiblocks including additional descriptions using and AMI tab.",
+  "description": "Allows mod creators to display their multiblocks including additional descriptions using an AMI tab.",
   "authors": [
     "Ralf2oo2, Atilist"
   ],
